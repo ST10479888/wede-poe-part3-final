@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+Disallow: /cgi-bin/
+
+# Sitemap location
+Sitemap: https://singhair.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Allow social media bots
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Facebot
+Allow: /

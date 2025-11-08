@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Singh Air for AC services in South Africa. Get free quotes, emergency service, and expert advice. Call (+27) 63 351 9791">
+    <title>Contact Us - Singh Air | Professional AC Services in South Africa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">Singh Air</a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                        <li><a href="enquiry.html">Get Quote</a></li>
+                    </ul>
+                </nav><!--Title: Wede POE
+Author: w3schools
+Date: 29 September 2025
+Available: https://www.w3schools.com/html/default.asp-->
+    <!-- Why Choose Us Section -->
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch for professional AC services across South Africa</p>
+            <div class="emergency-badge">
+                <span>🚨 24/7 Emergency Service Available</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="contact-content">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p class="contact-intro">We're here to help with all your air conditioning needs in South Africa. Reach out to us through any of the following methods:</p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Our Location</h4>
+                            <p>72 Snell Parade, 32 Maluti, South Africa</p>
+                            <a href="https://maps.google.com/?q=72+Snell+Parade+32+Maluti+South+Africa" target="_blank" class="btn btn-small">Get Directions</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h4>Call Us</h4>
+                            <p>(+27) 63 351 9791</p>
+                            <div class="contact-buttons">
+                                <a href="tel:+27633519791" class="btn btn-small btn-primary">Call Now</a>
+                                <a href="https://wa.me/27633519791" target="_blank" class="btn btn-small btn-secondary">WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h4>Email Us</h4>
+                            <p>singhair@gmail.com</p>
+                            <a href="mailto:singhair@gmail.com" class="btn btn-small">Send Email</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">🕒</div>
+                        <div class="contact-details">
+                            <h4>Business Hours</h4>
+                            <div class="hours-list">
+                                <div class="hour-item">
+                                    <span>Mon - Fri:</span>
+                                    <span>8:00 AM - 6:00 PM</span>
+                                </div>
+                                <div class="hour-item">
+                                    <span>Saturday:</span>
+                                    <span>9:00 AM - 4:00 PM</span>
+                                </div>
+                                <div class="hour-item">
+                                    <span>Sunday:</span>
+                                    <span>Emergency Only</span>
+                                </div>
+                                <div class="hour-item emergency">
+                                    <span>Emergency Service:</span>
+                                    <span>24/7 Available</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Areas -->
+                    <div class="service-areas">
+                        <h4>Areas We Serve</h4>
+                        <p>We provide AC services throughout South Africa including residential, commercial, and industrial properties.</p>
+                    </div>
+
+                    <!-- Map -->
+                    <div id="map"></div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+                    
+                    <form id="contactForm" data-validate action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required minlength="2" placeholder="Enter your full name">
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="+27 12 345 6789">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="quote">Request Quote</option>
+                                <option value="emergency">Emergency Service</option>
+                                <option value="complaint">Complaint</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="urgency">Urgency Level</label>
+                            <select id="urgency" name="urgency">
+                                <option value="routine">Routine Service</option>
+                                <option value="soon">Need Soon</option>
+                                <option value="urgent">Urgent - Within 48 hours</option>
+                                <option value="emergency">Emergency - Need ASAP</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Please describe your AC needs, including the type of unit, any specific issues, and your preferred contact method..." required minlength="10"></textarea>
+                        </div>
+                        
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary btn-large">
+                                <span class="btn-text">Send Message</span>
+                                <span class="btn-loading" style="display: none;">Sending...</span>
+                            </button>
+                            <p class="form-note">* Required fields. We respect your privacy and will never share your information.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Banner -->
+    <section class="emergency-banner">
+        <div class="container">
+            <div class="emergency-content">
+                <div class="emergency-icon">🚨</div>
+                <div class="emergency-text">
+                    <h3>AC Emergency in South Africa?</h3>
+                    <p>Don't suffer in the heat! We offer 24/7 emergency AC repair services across the country.</p>
+                </div>
+                <div class="emergency-action">
+                    <a href="tel:+27633519791" class="btn btn-emergency">Call Now: (+27) 63 351 9791</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Singh Air</h3>
+                    <p>Professional AC services you can trust since 2013. Serving South Africa with excellence.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>72 Snell Parade, 32 Maluti</p>
+                    <p>(+27) 63 351 9791</p>
+                    <p>singhair@gmail.com</p>
+                    <p>Emergency Service Available 24/7</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="enquiry.html">Get Quote</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Singh Air. All rights reserved. | <a href="privacy.html">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/map.js"></script>
+</body>
+</html>
